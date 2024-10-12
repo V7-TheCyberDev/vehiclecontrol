@@ -1,0 +1,153 @@
+
+
+
+.cont{ 
+
+
+
+    /* width: 400px;
+
+    height: 200px;
+
+    background-color: #000000c9;
+
+    border-radius: 10px;
+
+    position: absolute;
+
+    bottom: 50%;
+
+    left: 40%;
+
+    
+
+    transform: translate(50%,50%);
+
+    padding: 10px;
+
+ */
+position: absolute;
+--left: 88%;
+left: 85%;
+bottom: 300px;
+transform: translateX(-50%);
+width: 400px;
+height: 255px;
+border-radius: 5px;
+/* background-color: rgba(0, 0, 0, 0.623); */
+background: rgba(0, 0, 0, 0.8);
+border-radius: 20px;
+border: 3px solid rgba(0, 0, 0, 0.623);
+box-shadow: 0 4px 8px rgb(7, 7, 7);
+
+/* cursor: move; */
+
+
+}
+
+.X {
+
+ color: rgb(255, 0, 0);
+
+ background: none;
+ 
+ border: none;
+
+ font-size: 18px;
+
+ position: absolute;
+ 
+    top: 2%;
+
+    right: 2%;
+
+}
+
+.X:hover {
+    color: #c41e2ffa; /* Slightly darker red on hover */
+}
+
+.OFF {
+
+    /* background-image: url("img/ignition.png") ; */
+    background: none;
+    
+
+
+    border: none;
+
+}
+
+
+.OFF img {
+
+width: 45px;
+
+padding: 5px;
+
+}
+/* .OFF img:hover , .OFF:hover {
+
+
+        border: #ffffff;
+
+} */
+.down button {
+
+    background: none;
+
+
+    border-radius: 20px ;
+
+
+    border: circle #312e2e;
+    transition: all ease 0,4s;
+    
+    padding: 4px ;
+
+    margin: 2px 0 ;
+    /* or 
+    margin: 10px;
+    
+    */
+
+}
+
+
+.down button image , img {
+
+
+
+    width: 50px;
+     
+}
+
+.down  {
+
+    overflow: hidden;
+
+    /* display: flex; */
+
+    /* padding: 10px ;
+
+    margin: 10px;
+     */
+}
+
+
+/* .down button:hover {
+
+    border: circle #000000;
+    
+    
+    
+    transition: all ease 0,4s;
+
+
+} */
+
+
+.down button:hover {
+    background: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+    border-color: #ffffff; /* White border on hover */
+}
